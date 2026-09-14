@@ -58,65 +58,40 @@ Gesture-Controlled-Robotic-Arm/
 ├── LICENSE
 ├── .gitignore
 │
-├── docs/
-│   ├── Project_Report.pdf
-│   ├── PPT_Presentation.pptx
-│   ├── Block_Diagram.png
-│   ├── Circuit_Diagram.png
-│   └── Architecture_Diagram.png
-│
-├── hardware/
-│   ├── BOM.xlsx
-│   ├── Wiring_Diagram.pdf
-│   ├── Components_List.md
-│   └── CAD_Designs/
-│
-├── firmware/
+├── src/
 │   ├── transmitter/
-│   │   └── gesture_transmitter.ino
+│   │   └── transmitter.ino
 │   │
 │   ├── receiver/
-│   │   └── robotic_arm_receiver.ino
+│   │   └── receiver.ino
 │   │
-│   ├── config/
-│   │   └── pin_config.h
-│   │
-│   └── libraries/
+│   └── config/
+│       └── pins.h
 │
-├── safety_system/
-│   ├── obstacle_detection.ino
-│   ├── emergency_stop.ino
-│   └── safety_logic.md
+├── hardware/
+│   ├── components.md
+│   ├── circuit_diagram.png
+│   └── wiring_diagram.png
+│
+├── docs/
+│   ├── block_diagram.png
+│   ├── system_architecture.png
+│   └── project_report.pdf
 │
 ├── algorithms/
 │   ├── gesture_recognition.md
 │   ├── motion_control.md
-│   ├── smooth_motion.md
-│   └── obstacle_detection.md
-│
-├── mobile_app/
-│   ├── Gesture_Control.aia
-│   └── Gesture_Control.apk
-│
-├── simulations/
-│   ├── Proteus/
-│   └── Tinkercad/
+│   └── smooth_motion.md
 │
 ├── testing/
-│   ├── motion_test_results.pdf
-│   ├── bluetooth_test_results.pdf
-│   └── safety_test_results.pdf
+│   └── test_results.md
 │
 ├── media/
 │   ├── images/
-│   ├── videos/
 │   └── demo.gif
 │
 └── future_scope/
-    ├── ESP32_Integration.md
-    ├── IoT_Control.md
-    ├── Voice_Control.md
-    └── Computer_Vision.md
+    └── future_improvements.md
 ```
 
 ---
